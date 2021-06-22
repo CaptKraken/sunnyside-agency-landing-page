@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("74efa3216752eaf23a50514b2ae3a85a");
+}
+
+.section {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section--header__background {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.section--header__background--img {
+  user-select: none;
+}
+
+img {
+  width: 100%;
+}

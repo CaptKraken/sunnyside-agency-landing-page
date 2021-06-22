@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.HASH_REF_bd84f2532ce67539512a081d15ce6819.css.map */

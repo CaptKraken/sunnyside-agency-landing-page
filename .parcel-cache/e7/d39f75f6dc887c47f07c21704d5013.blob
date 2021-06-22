@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: red;
+}
+/*# sourceMappingURL=index.HASH_REF_6de31b61c8c069b77c9b0da24f34cc77.css.map */

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.HASH_REF_9cb8c0114e9c2f4a1f5103785d498718.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <link rel="stylesheet" href="/index.HASH_REF_6de31b61c8c069b77c9b0da24f34cc77.css">
+  <style>*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .section--header__background--img{
+    }
+</style>
+  <!-- <script src=""></script> -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+</style>
+</head>
+<body>
+
+  <div class="section section--header">
+    <picture class="section--header__background">
+      <source srcset="/image-header.HASH_REF_51d318e39d4258095c2dcb9e2171df49.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-header.HASH_REF_93197617db07daf40dd1a733bc1cf079.jpg" media="(min-width: 100px)">
+      <img src="/image-header.HASH_REF_93197617db07daf40dd1a733bc1cf079.jpg" class="section--header__background--img">
+    </picture>
+    <img src="/logo.HASH_REF_92ef0a6b94569b6a419386db7071b2c9.svg" alt="sunnyside logo">
+    <nav class="nav"></nav>
+  </div>
+
+  <!-- About
+  Services
+  Projects
+  Contact
+
+  We are creatives
+
+  Transform your brand
+
+  We are a full-service creative agency specializing in helping brands grow fast. 
+  Engage your clients through compelling visuals that do most of the marketing for you.
+
+  Learn more
+
+  Stand out to the right audience
+
+  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+
+  Learn more
+
+  Graphic design
+  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+
+  Photography
+  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+
+  Client testimonials
+
+  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+  Emily R.
+  Marketing Director
+
+  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+  Thomas S.
+  Chief Operating Officer
+
+  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+  Jennie F.
+  Business Owner
+
+  About
+  Services
+  Projects
+  Contact
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html><script src="/index.HASH_REF_1cf92b8ac789bf0c8bd4b6d53ebff041.js"></script>

@@ -8,6 +8,11 @@
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
+  <link rel="stylesheet" href="style/main.scss">
+  <style>
+  </style>
+  <!-- <script src=""></script> -->
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,7 +20,51 @@
   </style>
 </head>
 <body>
-  About
+
+  <div class="section section--header">
+    <picture class="section--header__background">
+      <source srcset="./images/desktop/image-header.jpg" media="(min-width: 1024px)" />
+      <source srcset="./images/mobile/image-header.jpg" media="(min-width: 100px)" />
+      <img src="./images/mobile/image-header.jpg" class="section--header__background--img" />
+    </picture>
+    <nav class="nav">
+      <img src="./images/logo.svg" alt="sunnyside logo">
+      <div class="nav__links">
+        <a href="#" class="nav__link">About</a>
+        <a href="#" class="nav__link">Services</a>
+        <a href="#" class="nav__link">Projects</a>
+        <a href="#" class="btn btn--nav">Contact</a>
+      </div>
+    </nav>
+    <h1 class="section--header__heading">WE ARE CREATIVES</h1>
+  <img src="./images/icon-arrow-down.svg" alt="">
+  </div>
+  <div class="section">
+    <picture class="section__img">
+      <source srcset="./images/desktop/image-transform.jpg" media="(min-width: 1024px)" />
+      <source srcset="./images/mobile/image-transform.jpg" media="(min-width: 100px)" />
+      <img src="./images/mobile/image-transform.jpg"/>
+    </picture>
+    <div class="section__content">
+      <h2 class="section__title"></h2>
+      <p class="section__paragraph"></p>
+      <a href="#" class="section__btn"></a>
+    </div>
+  </div>
+  <div class="section">
+    <picture class="section__img">
+      <source srcset="./images/desktop/image-stand-out.jpg" media="(min-width: 1024px)" />
+      <source srcset="./images/mobile/image-stand-out.jpg" media="(min-width: 100px)" />
+      <img src="./images/mobile/image-stand-out.jpg"/>
+    </picture>
+    <div class="section__content">
+      <h2 class="section__title"></h2>
+      <p class="section__paragraph"></p>
+      <a href="#" class="section__btn"></a>
+    </div>
+  </div>
+
+  <!-- About
   Services
   Projects
   Contact
@@ -63,6 +112,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
