@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 *,
 *::after,
 *::before {
@@ -5,35 +6,51 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
   width: 100%;
 }
-
 body {
   background-color: #ffffff;
   background-image: url("74efa3216752eaf23a50514b2ae3a85a");
 }
-
 .section {
   max-width: 1600px;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
+}
+.header {
   position: relative;
 }
-
-.section--header__background {
-  position: absolute;
-  width: 100%;
-  left: 50%;
+.header __background {
   transform: translateX(-50%);
   z-index: -1;
+  min-height: 100vh;
 }
-
-.section--header__background--img {
+.header __background--img {
   user-select: none;
 }
-
+.header__logo {
+  width: 8rem;
+}
+.header__nav {
+  display: none;
+}
+.header__arrow {
+  width: 2rem;
+  height: 2rem;
+}
+.btn--nav {
+  outline: none;
+}
+body {
+  font-family: "Barlow", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fraunces", serif;
+}
 img {
   width: 100%;
 }

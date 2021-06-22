@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.HASH_REF_9cb8c0114e9c2f4a1f5103785d498718.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <link rel="stylesheet" href="/index.HASH_REF_6de31b61c8c069b77c9b0da24f34cc77.css">
+  <style>
+</style>
+  <!-- <script src=""></script> -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+</style>
+</head>
+<body>
+
+  <div class="section header">
+    <picture class="header__background">
+      <source srcset="/image-header.HASH_REF_51d318e39d4258095c2dcb9e2171df49.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-header.HASH_REF_93197617db07daf40dd1a733bc1cf079.jpg" media="(min-width: 100px)">
+      <img src="/image-header.HASH_REF_93197617db07daf40dd1a733bc1cf079.jpg" class="header__background--img">
+    </picture>
+    <nav class="nav">
+      <img src="/logo.HASH_REF_92ef0a6b94569b6a419386db7071b2c9.svg" alt="sunnyside logo">
+      <div class="header__nav">
+        <a href="#" class="header__nav--link">About</a>
+        <a href="#" class="header__nav--link">Services</a>
+        <a href="#" class="header__nav--link">Projects</a>
+        <a href="#" class="header__nav--link">Contact</a>
+      </div>
+    </nav>
+    <h1 class="header__heading">we are creatives</h1>
+  <img src="/icon-arrow-down.HASH_REF_51bc457eb674acc169d2a0864210cd2c.svg" alt="">
+  </div>
+
+  <div class="section">
+    <picture class="section__img">
+      <source srcset="/image-transform.HASH_REF_8f34abf92d9fac455c1ede6813714edf.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-transform.HASH_REF_9d63e05440876bd65e1e0d4445ea9c87.jpg" media="(min-width: 100px)">
+      <img src="/image-transform.HASH_REF_9d63e05440876bd65e1e0d4445ea9c87.jpg">
+    </picture>
+    <div class="section__content">
+      <h2 class="section__title">Transform your brand</h2>
+      <p class="section__paragraph">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most the marketing for your</p>
+      <a href="#" class="section__btn">learn more</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <picture class="section__img">
+      <source srcset="/image-photography.HASH_REF_8c600466fac47d643649af7b8943aaa9.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-photography.HASH_REF_c5d9acf8d31c6fc8e5cfb85ce328dc9a.jpg" media="(min-width: 100px)">
+      <img src="/image-photography.HASH_REF_c5d9acf8d31c6fc8e5cfb85ce328dc9a.jpg">
+    </picture>
+    <div class="section__content">
+      <h2 class="section__title">Stand out to the right audience</h2>
+      <p class="section__paragraph">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <a href="#" class="section__btn">learn more</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section__photo">
+      <picture class="section__photo--img">
+        <source srcset="/image-graphic-design.HASH_REF_d1ab8baaa2437e703461d63343ec9689.jpg" media="(min-width: 1024px)">
+        <source srcset="/image-graphic-design.HASH_REF_d24b2c05ace1cba7f0d64d5b3510b854.jpg" media="(min-width: 100px)">
+        <img src="/image-graphic-design.HASH_REF_d24b2c05ace1cba7f0d64d5b3510b854.jpg">
+      </picture>
+      <div class="section__photo--content">
+        <h3 class="section__photo--content__heading">
+          Graphic Design
+        </h3>
+        <p class="section__photo--content__text">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+      </div>
+    </div>
+    <div class="section__photo">
+      <picture class="section__photo--img">
+        <source srcset="/image-photography.HASH_REF_8c600466fac47d643649af7b8943aaa9.jpg" media="(min-width: 1024px)">
+        <source srcset="/image-photography.HASH_REF_c5d9acf8d31c6fc8e5cfb85ce328dc9a.jpg" media="(min-width: 100px)">
+        <img src="/image-photography.HASH_REF_c5d9acf8d31c6fc8e5cfb85ce328dc9a.jpg">
+      </picture>
+      <div class="section__photo--content">
+        <h3 class="section__photo--content__heading">
+          Photography
+        </h3>
+        <p class="section__photo--content__text">Increase your credibility by getting the ost stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3 class="testimonial__header">client testimonials</h3>
+    <div class="testimonial--container">
+      <article class="testimonial__card">
+        <img class="testimonial__card--profile" src="/image-emily.HASH_REF_ad1307343b7cdecbccc702ab284dccaf.jpg">
+        <p class="testimonial__card--text">We put our trust in Sunnyside and they delivered, making sure our needs were met and dealines were always hit.</p>
+        <div class="testimonial__card--customer">
+          <!-- <h3> or <h4> -->
+          <h3 class="testimonial__card--customer__name">emily r.</h3>
+          <p class="testimonial__card--customer__occupation">marketing director</p>
+        </div>
+      </article>
+      <article class="testimonial__card">
+        <img class="testimonial__card--profile" src="/image-thomas.HASH_REF_c8e7049b0bfada967c48bd8ca80006c0.jpg">
+        <p class="testimonial__card--text">Sunnyside’s enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+        <div class="testimonial__card--customer">
+          <!-- <h3> or <h4> -->
+          <h3 class="testimonial__card--customer__name">thomas s.</h3>
+          <p class="testimonial__card--customer__occupation">chief operating officer</p>
+        </div>
+      </article>
+      <article class="testimonial__card">
+        <img class="testimonial__card--profile" src="/image-jennie.HASH_REF_617c55a8955d9749afba9abdc3014e93.jpg">
+        <p class="testimonial__card--text">Incredible end result! Our sales increased over 4005 when we worked with Sunnyside. Highly recommended.</p>
+        <div class="testimonial__card--customer">
+          <!-- <h3> or <h4> -->
+          <h3 class="testimonial__card--customer__name">jennie f.</h3>
+          <p class="testimonial__card--customer__occupation">business owner</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="section gallery">
+    <picture class="gallery__img">
+      <source srcset="/image-gallery-milkbottles.HASH_REF_b9931c487a4a3bdd0dbd52f421526b0a.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-gallery-milkbottles.HASH_REF_f5bc5c4718c7654e94edd21e2c230c5b.jpg" media="(min-width: 100px)">
+      <img src="/image-gallery-milkbottles.HASH_REF_f5bc5c4718c7654e94edd21e2c230c5b.jpg">
+    </picture>
+    <picture class="gallery__img">
+      <source srcset="/image-gallery-orange.HASH_REF_0a391eb7456a883020ab8c7729929bcf.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-gallery-orange.HASH_REF_baa3eada1bc4b3376795cef163d6ad13.jpg" media="(min-width: 100px)">
+      <img src="/image-gallery-orange.HASH_REF_baa3eada1bc4b3376795cef163d6ad13.jpg">
+    </picture>
+    <picture class="gallery__img">
+      <source srcset="/image-gallery-cone.HASH_REF_f1d0e0e43bb950045ae689772cdc1cff.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-gallery-cone.HASH_REF_152d569ea41e838b2987a07e2c5363e9.jpg" media="(min-width: 100px)">
+      <img src="/image-gallery-cone.HASH_REF_152d569ea41e838b2987a07e2c5363e9.jpg">
+    </picture>
+    <picture class="gallery__img">
+      <source srcset="/image-gallery-sugarcubes.HASH_REF_368a1e42dc0f216ab907f8c18e5755f9.jpg" media="(min-width: 1024px)">
+      <source srcset="/image-gallery-sugar-cubes.HASH_REF_b8befcfe03fc306f285fd307bf5d65c8.jpg" media="(min-width: 100px)">
+      <img src="/image-gallery-sugar-cubes.HASH_REF_b8befcfe03fc306f285fd307bf5d65c8.jpg">
+    </picture>
+  </div>
+
+
+  <footer class="section footer">
+    <img src="/logo.HASH_REF_92ef0a6b94569b6a419386db7071b2c9.svg" class="footer__logo" alt="sunnyside logo">
+    <nav class="footer__nav">
+        <a href="#" class="footer__nav--link">About</a>
+        <a href="#" class="footer__nav--link">Services</a>
+        <a href="#" class="footer__nav--link">Projects</a>
+    </nav>
+    <div class="footer__social">
+      <a href="#" class="footer__social--link">
+        <img src="/icon-facebook.HASH_REF_3ffeed3306592eabf12b868fce03be59.svg" alt="facebook">
+      </a>
+      <a href="#" class="footer__social--link">
+        <img src="/icon-instagram.HASH_REF_2a4c54168cf9987829c5a17ace54ad25.svg" alt="instagram">
+      </a>
+      <a href="#" class="footer__social--link">
+        <img src="/icon-twitter.HASH_REF_29a94cb6661fcb0f44937eef59850df7.svg" alt="twiicon-twitter.svg">
+      </a>
+      <a href="#" class="footer__social--link">
+        <img src="/icon-pinterest.HASH_REF_f01fb56a656c619df767f1164ebf4bdf.svg" alt="piicon-pinterest.svg">
+      </a>
+    </div>
+  </footer>
+
+
+  About
+  Services
+  Projects
+  Contact
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>  -->
+</body>
+</html><script src="/index.HASH_REF_1cf92b8ac789bf0c8bd4b6d53ebff041.js"></script>

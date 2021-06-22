@@ -17,18 +17,34 @@ body {
 
 .section {
   max-width: 1600px;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
-  position: relative;
 }
 
-.section--header__background {
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
-  &--img {
-    user-select: none;
+.header {
+  position: relative;
+  // min-height: 70vh;
+
+  &__background {
+    position: absolute;
+    z-index: -1;
+  }
+  &__logo {
+    width: 8rem;
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__arrow {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.btn {
+  &--nav {
+    outline: none;
   }
 }
